@@ -1,0 +1,89 @@
+
+install Anaconda, Python
+check on cmd python --version (cd give path and check if not recognize)
+(Jasdev Singh)-ask him for help
+startManu--> manage computer certificate -- open-- trusted root certification --- certificates--double click (2nd option)
+--> BluecrossIdahoho 2016 --> ryt click and export  --> base64 encoded next--> browse -- c drive --givefilename CArTficat(CART) browse and save in C drive.
+
+microsoft management console --> console 1
+console root -->expand  --> settings manage computer certificate --> trusted root certificate (2nd option)
+--> BluecrossIdahoho 2016 --> ryt click and export  --> base64 encoded next--> givefilename CArTficat(CART) browse and save in C drive.
+
+
+pip install selenium
+pip install robotframework
+pip install robotframework-seleniumlibrary
+
+if SSLcerVerificationFailuer--- do it (go through doc ask teammates to share) copy that file in c:drive simply
+pip config set --global http.sslVerify false
+pip install python-certifi-win32     (win64)
+pip install selenium --user
+
+Enter Credentials:
+Username: office.administrator@bcidaho.com
+Password: Passw0rd@1234
+
+
+Chrome web drivwers:
+https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/119.0.6045.105/win64/chrome-win64.zip
+
+https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/119.0.6045.105/win64/chromedriver-win64.zip
+
+
+
+Date 27Nov2023:
+python installed by giving path C:\program data
+checked version Python -V also checked pip , pip list
+tried pip install robotframework but not worked so used:
+pip install robotframework --trusted-host pypi.python.org --trusted-host files.pythonhosted.org --trusted-host pypi.org
+
+pip install -U --pre robotframework-ride --trusted-host pypi.python.org --trusted-host files.pythonhosted.org --trusted-host pypi.org
+
+pip install robotframework-datadriver --trusted-host pypi.python.org --trusted-host files.pythonhosted.org --trusted-host pypi.org
+
+pip install robotframework-zeep --trusted-host pypi.python.org --trusted-host files.pythonhosted.org --trusted-host pypi.org
+
+pip install robotframework-jsonlibrary --trusted-host pypi.python.org --trusted-host files.pythonhosted.org --trusted-host pypi.org
+
+pip install robotframework-requests --trusted-host pypi.python.org --trusted-host files.pythonhosted.org --trusted-host pypi.org
+
+pip install pyYAML --trusted-host pypi.python.org --trusted-host files.pythonhosted.org --trusted-host pypi.org
+
+pip install selenium --trusted-host pypi.python.org --trusted-host files.pythonhosted.org --trusted-host pypi.org
+
+pip install robotframework-seleniumlibrary --trusted-host pypi.python.org --trusted-host files.pythonhosted.org --trusted-host pypi.org
+
+
+
+
+click on run and debug and then click on show all automatic debug configurations. and set robotcode and then run it.
+
+
+i can create variable seperate file, for this i can add chropath extension and we can find variables and use it.
+
+
+password should not be visible..
+
+chropath extension
+https://chrome-stats.com/d/ljngjbnaijcbncmcnjfhigebomdlkcjo/download  
+
+https://chromewebstore.google.com/detail/selectorshub/ndgimibanhlabgdgjcpbbndiehljcpfh?hl=en-GB
+
+https://chromewebstore.google.com/detail/selectorshub/ndgimibanhlabg...
+
+https://autonomiq.io/deviq-chropath.html
+
+
+https://bciprod.service-now.com/nav_to.do?uri=%2Fsc_req_item.do%3Fsys_id%3D274faedd97afb9106351b4221153af42%26sysparm_record_target%3Dsc_req_item%26sysparm_catalog%3D3c317dc575627d00b354aa3cc8d7f276%26sysparm_catalog_view%3Dcatalog_it_support_services
+
+
+
+https://www.google.com/search?q=chrome+set+developer+mode&rlz=1C1GCEB_enUS879US879&oq=set+chrome+dev&gs_lcrp=EgZjaHJvbWUqCAgCEAAYFhgeMgYIABBFGDkyCAgBEAAYFhgeMggIAhAAGBYYHjIICAMQABgWGB4yCAgEEAAYFhgeMggIBRAAGBYYHjIICAYQABgWGB4yCAgHEAAYFhgeMggICBAAGBYYHjIICAkQABgWGB7SAQg4OTI2ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
+
+https://chromewebstore.google.com/detail/selectorshub/ndgimibanhlabgdgjcpbbndiehljcpfh?hl=en-GB
+
+
+https://bciprod.service-now.com/nav_to.do?uri=%2Fcom.glideapp.servicecatalog_checkout_view_v2.do%3Fv%3D1%26sysparm_sys_id%3D9b53a77a97a335106351b4221153afa2%26sysparm_new_request%3Dtrue%26sysparm_view%3Dess%26sysparm_catalog%3D3c317dc575627d00b354aa3cc8d7f276%26sysparm_catalog_view%3Dcatalog_it_support_services
+
+
+https://chromewebstore.google.com/detail/selectorshub/ndgimibanhlabgdgjcpbbndiehljcpfh?utm_source=www.crx4chrome.com

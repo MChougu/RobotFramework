@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.9.5 on win32)" generated="20240513 07:36:55.870" rpa="false" schemaversion="4">
+<suite id="s1" name="MMCPPriorAuth" source="H:\ProviderDemoProject\AUTHORIZATION_and_NOTIFICATIONS\MMCPPriorAuth.robot">
+<kw name="OpenProviderBrowserQual" type="SETUP">
+<msg timestamp="20240513 07:36:56.179" level="FAIL">No keyword with name 'OpenProviderBrowserQual' found.</msg>
+<status status="FAIL" starttime="20240513 07:36:56.179" endtime="20240513 07:36:56.179"/>
+</kw>
+<test id="s1-t1" name="TestDataFile using" line="12">
+<status status="FAIL" starttime="20240513 07:36:56.180" endtime="20240513 07:36:56.181">Parent suite setup failed:
+No keyword with name 'OpenProviderBrowserQual' found.</status>
+</test>
+<kw name="Closing All Browsers" type="TEARDOWN">
+<msg timestamp="20240513 07:36:56.228" level="FAIL">No keyword with name 'Closing All Browsers' found. Did you mean:
+    SeleniumLibrary.Close All Browsers</msg>
+<status status="FAIL" starttime="20240513 07:36:56.228" endtime="20240513 07:36:56.228">No keyword with name 'Closing All Browsers' found. Did you mean:
+    SeleniumLibrary.Close All Browsers</status>
+</kw>
+<status status="FAIL" starttime="20240513 07:36:55.878" endtime="20240513 07:36:56.228">Suite setup failed:
+No keyword with name 'OpenProviderBrowserQual' found.
+
+Also suite teardown failed:
+No keyword with name 'Closing All Browsers' found. Did you mean:
+    SeleniumLibrary.Close All Browsers</status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="MMCPPriorAuth">MMCPPriorAuth</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20240513 07:36:56.148" level="ERROR">Error in file 'H:\ProviderDemoProject\AUTHORIZATION_and_NOTIFICATIONS\MMCPPriorAuth.robot' on line 3: Resource file '..\Resources\resMMCP.robot' does not exist.</msg>
+<msg timestamp="20240513 07:36:56.168" level="ERROR">[ DataDriver ] Error in robot file:
+  File "H:\ProviderDemoProject\AUTHORIZATION_and_NOTIFICATIONS\MMCPPriorAuth.robot", line 0</msg>
+<msg timestamp="20240513 07:36:56.170" level="ERROR">In source file:
+  File "../TestData/MMCPPriorAuthTData.csv", line 0</msg>
+<msg timestamp="20240513 07:36:56.172" level="ERROR">Calling method '_start_suite' of listener 'DataDriver' failed: FileNotFoundError: File attribute was not a full path. Tried to find H:\ProviderDemoProject\AUTHORIZATION_and_NOTIFICATIONS\..\TestData\MMCPPriorAuthTData.csv but file does not exist.</msg>
+</errors>
+</robot>

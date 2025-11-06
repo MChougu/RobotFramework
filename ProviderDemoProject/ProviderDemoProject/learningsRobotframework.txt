@@ -1,0 +1,48 @@
+sharepoint links:
+https://moss.corp.bcidaho.loc/sites/Services/qa/Wiki/WikiPages/Tools/Robotframework/Setup%20Robotframework.aspx
+
+https://moss.corp.bcidaho.loc/sites/Services/qa/Wiki/WikiPages/Tools/Robotframework/Robotframework%20design%20guidelines.aspx
+
+
+https://robotframework.org/
+Robotframework source site: https://github.com/robotframework/robotframework
+
+
+
+Install python 3.8
+cmd Python -V
+It is recommended that you install the root certificates 
+from the C:\Windows\System32\ALL.ROOTS.PEM.crt file into the 
+following Python .pem file assuming you installed Python in the C:\Python\PythonXX directory: 
+
+C:\Python\PythonXX\Lib\site-packages\pip\_vendor\certifi​\cacert.pem 
+
+install pip
+access PIP through a CMD window
+
+pip install robotframework
+   pip install robotframework --trusted-host pypi.python.org --trusted-host files.pythonhosted.org --trusted-host pypi.org
+
+If security has allowed access to those hosts the package should install, 
+but you should revisit the SSL certificates section and make sure they are 
+in the PEM files listed so you don’t have to continue doing this.
+
+pip install -U --pre robotframework-ride (we are using the pre-release of RIDE because it supports Python 3.X)
+
+Additional robotframework and python packages:
+
+ pip install -U --pre robotframework-ride (we are using the pre-release of RIDE because it supports Python 3.X)
+	pip install robotframework-datadriver
+
+         pip install robotframework-zeep
+
+       pip install robotframework-jsonlibrary
+
+        pip install robotframework-requests
+
+        pip install pyYAML
+
+        pip install psutil   
+
+
+

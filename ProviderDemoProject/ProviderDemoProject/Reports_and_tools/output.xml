@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.9.5 on win32)" generated="20231201 00:06:10.903" rpa="false" schemaversion="4">
+<suite id="s1" name="ClinicalEditorTest" source="C:\ProgramData\ProviderDemoProject\Reports_and_tools\ClinicalEditor\ClinicalEditorTest.robot">
+<test id="s1-t1" name="logintc" line="11">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${Url}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20231201 00:06:11.184" level="FAIL">Variable '${Url}' not found.</msg>
+<status status="FAIL" starttime="20231201 00:06:11.184" endtime="20231201 00:06:11.184"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" starttime="20231201 00:06:11.185" endtime="20231201 00:06:11.185"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20231201 00:06:11.185" endtime="20231201 00:06:11.186"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://*[@id="header_s1"]/div[2]/div/ul/li[2]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20231201 00:06:11.186" endtime="20231201 00:06:11.186"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id:email</arg>
+<arg>office.administrator@bcidaho.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20231201 00:06:11.186" endtime="20231201 00:06:11.186"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id:password</arg>
+<arg>Passw0rd1234</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20231201 00:06:11.187" endtime="20231201 00:06:11.187"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>id:btn-login</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20231201 00:06:11.187" endtime="20231201 00:06:11.187"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20231201 00:06:11.188" endtime="20231201 00:06:11.188"/>
+</kw>
+<status status="FAIL" starttime="20231201 00:06:11.182" endtime="20231201 00:06:11.188">Variable '${Url}' not found.</status>
+</test>
+<test id="s1-t2" name="MouseAction" line="23">
+<kw name="Go To" library="SeleniumLibrary">
+<arg>https://providers.qual.bcidaho.com/providers-home-loggedin.page</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<msg timestamp="20231201 00:06:11.192" level="INFO">Opening url 'https://providers.qual.bcidaho.com/providers-home-loggedin.page'</msg>
+<msg timestamp="20231201 00:06:11.193" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20231201 00:06:11.193" level="FAIL">No browser is open.</msg>
+<status status="FAIL" starttime="20231201 00:06:11.192" endtime="20231201 00:06:11.196"/>
+</kw>
+<kw name="Mouse Over" library="SeleniumLibrary">
+<arg>xpath://*[@id="header_s1"]/div[2]/div/div[2]/ul/li[5]</arg>
+<doc>Simulates hovering the mouse over the element ``locator``.</doc>
+<status status="NOT RUN" starttime="20231201 00:06:11.197" endtime="20231201 00:06:11.197"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://*[@id="header_s1"]/div[2]/div/div[2]/ul/li[5]/div/div[1]/ul/li[3]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20231201 00:06:11.197" endtime="20231201 00:06:11.197"/>
+</kw>
+<status status="FAIL" starttime="20231201 00:06:11.191" endtime="20231201 00:06:11.198">No browser is open.</status>
+</test>
+<test id="s1-t3" name="Click on Launch button" line="29">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://*[@id="1418415350885"]/div/div/table[2]/tbody/tr/td[2]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20231201 00:06:11.216" level="INFO">Clicking element 'xpath://*[@id="1418415350885"]/div/div/table[2]/tbody/tr/td[2]/a'.</msg>
+<msg timestamp="20231201 00:06:11.217" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20231201 00:06:11.217" level="FAIL">No browser is open.</msg>
+<status status="FAIL" starttime="20231201 00:06:11.215" endtime="20231201 00:06:11.219"/>
+</kw>
+<status status="FAIL" starttime="20231201 00:06:11.213" endtime="20231201 00:06:11.220">No browser is open.</status>
+</test>
+<status status="FAIL" starttime="20231201 00:06:10.906" endtime="20231201 00:06:11.222"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="3" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="3" skip="0" id="s1" name="ClinicalEditorTest">ClinicalEditorTest</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20231201 00:06:11.178" level="ERROR">Error in file 'C:\ProgramData\ProviderDemoProject\Reports_and_tools\ClinicalEditor\ClinicalEditorTest.robot' on line 4: Variable file '..\ProviderHomepage\ProviderHomepageVariables.py' does not exist.</msg>
+</errors>
+</robot>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.9.5 on win32)" generated="20231129 08:22:27.329" rpa="false" schemaversion="4">
+<suite id="s1" name="ProviderLogInTest" source="\\PNAS02FS1\Profiles\mal10052\Desktop\ProviderDemoProject\ProviderHomepage\LogInProvideronQualUI\ProviderLogInTest.robot">
+<test id="s1-t1" name="Login providers" line="12">
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<arg>1 seconds</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" starttime="20231129 08:22:27.654" endtime="20231129 08:22:27.654"/>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<arg>xpath://*[@id="header_s1"]/div[2]/div/ul/li[2]/a</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<msg timestamp="20231129 08:22:27.656" level="INFO">Clicking link 'xpath://*[@id="header_s1"]/div[2]/div/ul/li[2]/a'.</msg>
+<msg timestamp="20231129 08:22:27.656" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20231129 08:22:27.656" level="FAIL">No browser is open.</msg>
+<status status="FAIL" starttime="20231129 08:22:27.655" endtime="20231129 08:22:27.660"/>
+</kw>
+<status status="FAIL" starttime="20231129 08:22:27.653" endtime="20231129 08:22:27.661">No browser is open.</status>
+</test>
+<test id="s1-t2" name="LoginOffic" line="20">
+<kw name="Go To" library="SeleniumLibrary">
+<arg>${Url}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<msg timestamp="20231129 08:22:27.667" level="FAIL">Variable '${Url}' not found.</msg>
+<status status="FAIL" starttime="20231129 08:22:27.665" endtime="20231129 08:22:27.667"/>
+</kw>
+<status status="FAIL" starttime="20231129 08:22:27.665" endtime="20231129 08:22:27.667">Variable '${Url}' not found.</status>
+</test>
+<test id="s1-t3" name="LoginUsername" line="23">
+<error>
+<value>[Arguments]</value>
+<msg timestamp="20231129 08:22:27.671" level="FAIL">Setting 'Arguments' is not allowed with tests or tasks.</msg>
+<status status="FAIL" starttime="20231129 08:22:27.671" endtime="20231129 08:22:27.671"/>
+</error>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id:email</arg>
+<arg>${Username}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20231129 08:22:27.671" endtime="20231129 08:22:27.671"/>
+</kw>
+<status status="FAIL" starttime="20231129 08:22:27.670" endtime="20231129 08:22:27.672">Setting 'Arguments' is not allowed with tests or tasks.</status>
+</test>
+<test id="s1-t4" name="LoginPassword" line="27">
+<error>
+<value>[Arguments]</value>
+<msg timestamp="20231129 08:22:27.674" level="FAIL">Setting 'Arguments' is not allowed with tests or tasks.</msg>
+<status status="FAIL" starttime="20231129 08:22:27.674" endtime="20231129 08:22:27.674"/>
+</error>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id:password</arg>
+<arg>${Password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20231129 08:22:27.675" endtime="20231129 08:22:27.675"/>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="NOT RUN" starttime="20231129 08:22:27.675" endtime="20231129 08:22:27.675"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" starttime="20231129 08:22:27.676" endtime="20231129 08:22:27.676"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20231129 08:22:27.676" endtime="20231129 08:22:27.676"/>
+</kw>
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<arg>Welcome, Healthcare Providers!</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="NOT RUN" starttime="20231129 08:22:27.677" endtime="20231129 08:22:27.677"/>
+</kw>
+<status status="FAIL" starttime="20231129 08:22:27.674" endtime="20231129 08:22:27.678">Setting 'Arguments' is not allowed with tests or tasks.</status>
+</test>
+<status status="FAIL" starttime="20231129 08:22:27.339" endtime="20231129 08:22:27.682"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="4" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="4" skip="0" id="s1" name="ProviderLogInTest">ProviderLogInTest</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20231129 08:22:27.628" level="ERROR">Error in file '\\PNAS02FS1\Profiles\mal10052\Desktop\ProviderDemoProject\ProviderHomepage\LogInProvideronQualUI\ProviderLogInTest.robot' on line 3: Variable file 'ProviderHomepageVariables.py' does not exist.</msg>
+</errors>
+</robot>
